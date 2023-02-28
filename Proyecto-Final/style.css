@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.encabezado{
+    background-color: #0769e9;
+    height: 128px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.link-redes{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 128px;
+}
+.menu{
+    flex-direction: column;
+    margin: 0;
+    background-color: #0c002c;
+    position: fixed;
+    left: 100%;
+    top: 128px;
+    list-style: none;
+    transition: left 0.3s;
+}
+.redes{
+    font-size: 15px;
+    padding: 0 40px;
+    line-height: 128px;
+    text-transform: uppercase;
+}
+.link-redes:hover{
+    background-color: #034574;
+    transition: 0.5s;
+}
+#barra{
+    color: #0769e9;
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 120px;
+    cursor: pointer;
+}
+.menu_visible{
+    left: 86%;
+}
+.informacion-personal{
+    background: lightgrey;
+    padding: 11%;
+    text-align: center;
+}
+.informacion-personal h2{
+    padding: 1em;
+}
+.informacion-personal h2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.datos{
+    background: lightgrey;
+    padding-bottom: 5%;
+} 
+.datos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 1em 1.5%;
+    padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.datos li:hover{
+    transform: scale(1.1);
+    background: white;
+    transition: 1s;
+}
+.datos li h2{
+    padding: 1em;
+    font-weight: bold;
+}
+.contacto{
+    background: black;
+    color: white;
+    padding: 5%;
+}
+.contacto p{
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 10%;
+}
